@@ -51,6 +51,21 @@ body {
   line-height: 1.6;
 }
 
+.eventPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 1.5%;
+}
+
+.eventPhotos img {
+  width: 100%;
+  max-width: 40%;
+  height: auto;
+}
+
 .footer {
   background-color: #0c1b45;
   color: #ffffff;
